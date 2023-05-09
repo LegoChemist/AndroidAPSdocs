@@ -1,6 +1,6 @@
 # Android Auto
 
-AAPS is capable to send you information about your actual state as message directly into Android Auto in your car.
+AAPS is capable of sending you information about your glucose levels as a message, directly through Android Auto in your car.
 
 
 :::{admonition} version and last change information
@@ -15,12 +15,12 @@ versions used for documentation:
 
 ## Requirements
 
-AAPS uses a feature of Android Auto which allows messages from apps on the mobile to be routed to the display of Auto Audio in the car.
+It is possible to send messages from AAPS on a mobile phone to the display of Auto Audio in the car.
 
-That means that
+To enable this, you must
 
-* you must configure AAPS to use system notifications for alerts and notifications and
-* as AAPS is an unoffical App allow the use of "unknown sources" with Android Auto.
+* configure AAPS to use system notifications for alerts and notifications and
+* allow the use of "unknown sources" with Android Auto (as AAPS is an unoffical App).
 
 ![AAPS CGM data on Android Auto](../images/android_auto_01.png)
 
@@ -36,7 +36,7 @@ In **Local Alerts** activate **Use system notifications for alerts and notificat
 
 ![Use system notifications for alerts and notifications](../images/android_auto_03.png)
 
-Please check now that you get notifications from AASP on the mobile before you walk to your car!
+Please check now that you get notifications from AAPS on the mobile before you walk to your car!
 
 ![Use system notifications for alerts and notifications](../images/android_auto_04.png)
 
@@ -44,7 +44,7 @@ Please check now that you get notifications from AASP on the mobile before you w
    
 ## allow the use of "unknown sources" with Android Auto.
 
-As AAPS is no official Android Auto app notifications have to be activated for "unknown sources" in Android Auto. This is done through the use of the developer mode which we will show you here.
+As AAPS is not official, Android Auto app notifications have to be activated for "unknown sources" in Android Auto. This is done through the use of the developer mode which we show here.
 
 Go to your car and connect your mobile with the cars audio system.
 
