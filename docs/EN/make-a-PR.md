@@ -17,7 +17,7 @@ At some point it will be suggested that you make a pull request (PR), which is h
 * The editor will do a review and either (1) merge your changes, (2) comment back to you about your changes, or (3)start a new document with your changes.
 (Side note:  If you are a visual learner, there is a YouTube video [here](https://youtu.be/4b6tsL0_kzg) showing the PR workflow.)
 
-For our example we are going to make an edit to AndroidAPSdocs.  This does NOT need to be done in the linux environment on your rig.  This can be done on any Windows PC, Mac, etc. (any computer with Internet access).
+For our example we are going to make an edit to AndroidAPSdocs. This can be done on any Windows PC, Mac, etc. (any computer with Internet access).
 
 1. Go to https://github.com/openaps/AndroidAPSdocs and hit Fork in the upper right to make your own copy of the repository.
 
@@ -27,7 +27,7 @@ For our example we are going to make an edit to AndroidAPSdocs.  This does NOT n
 
 ![edit doc](./images/PR1.png)
 
-   Or you can click on the "Edit in GitHub" link in the upper right corner, and then click the pencil icon that appears in the top bar of the page contents to be edited.
+   Or you can click on the "Edit in GitHub" link in the upper right corner, and then click the pencil icon that appears in the top bar of the page contents to be edited. You will need to be already logged into your Github account to do this (if you don't have one, they are straightforward to set up).
 
 ![RTD io](./images/PR2.png)
 
@@ -58,20 +58,20 @@ PS: Your fork and branch will still be sitting on your own personal GitHub accou
 (make-a-PR-code-syntax)=
 ## Code syntax
 
-We are using markdown for the docs pages. The files have got the suffix ".md".
+We are using markdown for the documentation pages. The files have got the suffix ".md".
 
 Markdown is a very simple text formating language which separates text content from text formating.
 
-The writer only e.g. marks a headline as level 1 headline and the markdown processor generate during processing the necessary HTML code to render the heading in HTML.
+The writer only e.g. marks a headline as level 1 headline and the markdown processor generates the necessary HTML code during processing to render the heading in HTML.
 
 The idea behind this is that
-* the writer should think about the text and not the formating first,
-* the markdown text is open for exchange between different markdown tools instead of e.g. proprietray tools like Mircosoft Windows and
+* the writer should think about the text and not the formatting first,
+* the markdown text is open for exchange between different markdown tools instead of e.g. proprietary tools like Microsoft Windows and
 * you can generate several output formats from one markdown file.
 
-Markdown is not a 100% fixed standard and we try to stay as near as possible to the standard to
+Markdown is not a 100% fixed standard and we try to stay as near as possible to the standard, to
 * stay flexible to change markdown tools as needed or forced in the further innovation of markdown tools and markdown SaaS services and
-* enable us to use a transaltion services to translate the english language in a target language like French or German because they can work on markdown but not complex formating codes because they can't separate there content from layout which might be fatal.
+* enable us to use translation services to translate the English language in a target language like French or German. They can work on markdown but not complex formatting codes, because they can't separate content from layout, which might be fatal.
 
 ### Headlines
 
@@ -80,7 +80,7 @@ Markdown is not a 100% fixed standard and we try to stay as near as possible to 
 * Headline 3: `### headline`
 * Headline 4: `#### headline`
 
-We try to avoid further leveles of headlines.
+We try to avoid further levels of headlines.
 
 ### Text format
 
@@ -146,7 +146,7 @@ To include images you use this markdown syntax.
 
 The type of image should be PNG or JPEG.
 
-Images names should confirm to one of following naming rules. In the example I use png as suffix. In case you use JPEG please replace it with jpeg.
+Images names should confirm to one of following naming rules. In the example I use png as suffix. In case you use JPEG please use jpeg as a suffix instead.
 
 * `filename-image-xx.png` where xx is a unique double digit number for the images in this file.
 * `filename-image-xx.png` where xx is a meaning full name for the author of the md file.
@@ -159,7 +159,7 @@ We are not translating images at the moment.
 Use a reasonable size for the images which must be readable on PC, tablet and mobiles.
 
 * Screenshots from web pages images should be up to **1050 pixels wide**.
-* Diagramms of process flows should be up to **1050 pixels wide**.
+* Diagrams of process flows should be up to **1050 pixels wide**.
 * Screenshots from the app should be up to **300 to 400 pixels wide**.
 
 ### Links
